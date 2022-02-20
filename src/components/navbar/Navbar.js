@@ -1,24 +1,26 @@
-import 'Navbar.css';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import './Navbar.css';
 
-function Navbar() {
-  return (
-    <div className="Navbar">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function MyNavbar() {
+    return (
+        <Navbar sticky="top" variant="dark" expand="lg" className="shadow">
+            <Container>
+                <Navbar.Brand href="/">dfox</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+                    <Nav>
+                        <Nav.Link href="#home" className="active">home</Nav.Link>
+                        <Nav.Link href="#about">about</Nav.Link>
+                        <Nav.Link href="#experience">experience</Nav.Link>
+                        <Nav.Link href="#projects">projects</Nav.Link>
+                        <Nav.Link href="#contact">contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
+    );
 }
 
-export default App;
+export default MyNavbar;

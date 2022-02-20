@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&display=swap');
+
 :root {
   --space-blue: rgba(22, 30, 84);
   --blue: rgba(17, 70, 143);
@@ -7,7 +9,8 @@
 }
 
 .App {
-  text-align: left;
+  font-family: 'Exo 2', sans-serf;
+  background-color: var(--space-blue);
 }
 
 .App-logo {
@@ -22,7 +25,6 @@
 }
 
 .App-header {
-  background-color: var(--space-blue);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -1,0 +1,10 @@
+.navbar {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    font-weight: 500;
+    font-size: 125%;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
