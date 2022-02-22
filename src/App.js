@@ -1,6 +1,7 @@
 import './App.css';
 import MyNavbar from './components/mynavbar/MyNavbar';
 import Home from './components/home/Home';
+import About from './components/about/About';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <MyNavbar />
       <Home />
+      <About />
     </div>
   );
 }
