@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Button from 'react-bootstrap/Button';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 import './About.css';
 
 function About() {
@@ -34,7 +34,7 @@ function About() {
                     </p>
                 </Col>
                 <Col sm={12} lg={6}>
-                    
+                    <Image src="../assets/hs.png"></Image>
                 </Col>
             </Row>
         </Container>
