@@ -1,14 +1,14 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
+import Figure from 'react-bootstrap/Figure';
 import './About.css';
 
 function About() {
     return (
         <Container className='about'>
             <Row>
-                <Col sm={12} lg={6}>
+                <Col sm={12} lg={6} >
                     <h1 className='about-h'>about-me</h1>
                     <p>
                         Leadership <span>//</span> Innovation <span>//</span> Problem-Solving
@@ -25,7 +25,7 @@ function About() {
                     </p>
                     <p>
                         The art of understanding an obstacle, how it works, and how it can be overcome, is one
-                        I find nothing short of beautiful. The leaders that bring forth our future and open its 
+                        I find nothing short of beautiful. The leaders that bring forth our future and open its
                         possibilities are nothing without the vision of <span>problem-solving</span>.
                     </p>
                     <p>
@@ -33,8 +33,15 @@ function About() {
                         to see what that looks like. 🚀
                     </p>
                 </Col>
-                <Col sm={12} lg={6}>
-                    <Image src="../assets/hs.png"></Image>
+                <Col sm={12} lg={6} className='about-hs'>
+                    <Figure>
+                        <Figure.Image
+                            width={300}
+                            alt="A beauitful pic of dfox"
+                            src={require('../../assets/hs.png')}
+                            className='hs rounded shadow'
+                        />
+                    </Figure>
                 </Col>
             </Row>
         </Container>
