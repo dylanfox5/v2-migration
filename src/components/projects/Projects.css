@@ -12,3 +12,8 @@
     font-weight: 500;
     margin-bottom: 2vh;
 }
+
+.card {
+    width: auto;
+    background-color: var(--blue) !important;
+}
