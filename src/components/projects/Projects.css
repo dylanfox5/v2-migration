@@ -16,4 +16,9 @@
 .card {
     width: auto;
     background-color: var(--blue) !important;
+    transition: ease-in .15s;
+}
+
+.card:hover {
+    background-color: var(--space-blue) !important;
 }

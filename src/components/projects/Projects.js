@@ -11,7 +11,8 @@ function Projects() {
             <Row>
                 <h1 className='projects-h'>featured-projects</h1>
                 <Col>
-                    <Card>
+                    <Card className='shadow'>
+                        <Card.Header as='h5'>hello</Card.Header>
                         <Card.Body>
                             <Card.Title>v2</Card.Title>
                             <Card.Text>
@@ -23,7 +24,8 @@ function Projects() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card>
+                    <Card className='shadow'>
+                        <Card.Header as='h5'>hello</Card.Header>
                         <Card.Body>
                             <Card.Title>v1</Card.Title>
                             <Card.Text>
@@ -35,7 +37,8 @@ function Projects() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card>
+                    <Card className='shadow'>
+                        <Card.Header as='h5'>hello</Card.Header>
                         <Card.Body>
                             <Card.Title>Graceland Today</Card.Title>
                             <Card.Text>
