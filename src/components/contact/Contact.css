@@ -1,0 +1,29 @@
+.contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--white);
+}
+
+.contact-h {
+    color: var(--red);
+    margin: auto;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+
+.contact-btn {
+    background-color: transparent !important;
+    border: 3px solid var(--red) !important;
+    font-weight: 500 !important;
+    font-size: 150% !important;
+    width: 15% !important;
+    margin-left: .75vw;
+    margin-top: 1rem !important;
+}
+
+.contact-btn:hover {
+    background-color: var(--red) !important;
+    color: var(--space-blue) !important;
+}
