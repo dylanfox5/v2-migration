@@ -10,42 +10,33 @@ function Projects() {
         <Container className='projects'>
             <Row>
                 <h1 className='projects-h'>featured-projects</h1>
-                <Col>
+                <Col xs={12} md={6} lg={4}>
                     <Card className='shadow'>
-                        <Card.Header as='h5' className='card-icon'>hello</Card.Header>
+                        <Card.Header as='h5' className='card-title'>v2</Card.Header>
                         <Card.Body>
-                            <Card.Title>v2</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                The second interation of my porfolio website. Used React, React-Bootstrap, JS, jQuery, HTML & CSS 
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col xs={12} md={6} lg={4}>
                     <Card className='shadow'>
-                        <Card.Header as='h5' className='card-icon'>hello</Card.Header>
+                        <Card.Header as='h5' className='card-title'>v1</Card.Header>
                         <Card.Body>
-                            <Card.Title>v1</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                The first interation of my porfolio website. Used JS, jQuery, HTML & CSS, Bootstrap
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col xs={12} md={6} lg={4}>
                     <Card className='shadow'>
-                        <Card.Header as='h5' className='card-icon'>hello</Card.Header>
+                        <Card.Header as='h5' className='card-title'>Graceland Today</Card.Header>
                         <Card.Body>
-                            <Card.Title>Graceland Today</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                Conceptualized and built an online calendar for GU. It contained daily, weekly, & monthly events.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
                         </Card.Body>
                     </Card>
                 </Col>

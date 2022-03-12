@@ -21,8 +21,19 @@
 
 .card:hover {
     background-color: var(--space-blue) !important;
+    /* color: var(--blue) !important; */
 }
 
-.card-icon {
-    color: var(--red);
+/* .card:hover > .card-title {
+    color: var(--blue);
+} */
+
+.card-title {
+    color: var(--orange);
+}
+
+@media (min-width: 768px) {
+    .card {
+        min-height: 25vh;
+    }
 }
