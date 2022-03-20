@@ -5,7 +5,7 @@ import './MyNavbar.css';
 
 function MyNavbar() {
     return (
-        <Navbar sticky="top" variant="dark" expand="lg" className="shadow">
+        <Navbar sticky="top" variant="dark" expand="lg" className="shadow animate__animated animate__fadeInDown animate__delay-1s">
             <Container>
                 <Navbar.Brand href="/">dfox</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
