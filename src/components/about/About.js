@@ -6,7 +6,7 @@ import './About.css';
 
 function About() {
     return (
-        <Container className='about'>
+        <Container id="about" className='about'>
             <Row>
                 <Col sm={12} lg={6} >
                     <h1 className='about-h'>about-me</h1>

@@ -7,7 +7,7 @@ import './Projects.css';
 
 function Projects() {
     return (
-        <Container className='projects'>
+        <Container id="projects" className='projects'>
             <Row>
                 <h1 className='projects-h'>featured-projects</h1>
                 <Col xs={12} md={6} lg={4}>

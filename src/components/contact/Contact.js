@@ -5,7 +5,7 @@ import './Contact.css';
 
 function Contact() {
     return (
-        <Container className='contact'>
+        <Container id="contact" className='contact'>
             <Row>
                 <h1 className='contact-h'>let's-connect</h1>
                 <h4>

@@ -10,8 +10,8 @@ function MyNavbar() {
                 <Navbar.Brand href="/">dfox</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                    <Nav>
-                        <Nav.Link href="#home" className="active">home</Nav.Link>
+                    <Nav navbarScroll>
+                        <Nav.Link id="home" href="#home" className="active">home</Nav.Link>
                         <Nav.Link href="#about">about</Nav.Link>
                         <Nav.Link href="#experience">experience</Nav.Link>
                         <Nav.Link href="#projects">projects</Nav.Link>
