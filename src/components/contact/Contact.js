@@ -15,7 +15,7 @@ function Contact() {
                     I'm always intrigued with new ideas, new projects, and new problems to solve. Feel free
                     to get connected via email or any social media platform.
                 </h4>
-                <Button className='contact-btn' size='lg'>
+                <Button href="mailto:dylan.fox.kc@gmail.com" className='contact-btn' size='lg'>
                     say hey
                 </Button>
             </Row>
