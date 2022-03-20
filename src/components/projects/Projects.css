@@ -17,16 +17,12 @@
     width: auto;
     background-color: var(--blue) !important;
     transition: ease-in .15s;
+    margin-bottom: 2vh;
 }
 
 .card:hover {
     background-color: var(--space-blue) !important;
-    /* color: var(--blue) !important; */
 }
-
-/* .card:hover > .card-title {
-    color: var(--blue);
-} */
 
 .card-title {
     color: var(--orange);
